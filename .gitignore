@@ -1,0 +1,12 @@
+/yarn.lock
+/package-lock.json
+/yarn-error.log
+/dist
+/.docz
+/node_modules
+.umi
+.svn
+.idea
+/es
+/docs-dist
+/lib

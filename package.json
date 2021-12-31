@@ -1,0 +1,49 @@
+{
+  "private": false,
+  "name": "slider-captcha-react",
+  "description": "react 滑动验证码版本 支持ts",
+  "keywords": [
+    "captcha",
+    "react",
+    "react-captcha",
+    "slider-captcha"
+  ],
+  "version": "1.0.12",
+  "authors": {
+    "name": "Elvis",
+    "email": "643023231@qq.com"
+  },
+  "repository": "https://github.com/cheepion/slider-captcha-react",
+  "license": "MIT",
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "crypto-js": "^4.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@umijs/fabric": "^2.6.7",
+    "dumi": "^1.1.29",
+    "father-build": "^1.20.0",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "yorkie": "^2.0.0"
+  }
+}
