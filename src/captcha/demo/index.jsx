@@ -30,7 +30,7 @@ export default () => {
           background: '#1890ff',
         }}
       >
-        点击
+        open
       </button>
 
       <button
