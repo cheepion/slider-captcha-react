@@ -17,8 +17,9 @@ $ yarn or npm install
 
 $ yarn start
 
-## Demo path
+```
+## Example
 
-$ src/captcha/demo/index.jsx
+> Example/index.jsx
 
 

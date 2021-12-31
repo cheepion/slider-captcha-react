@@ -1,10 +1,10 @@
-## Captcha
+## Captcha参考
 [AJ-Captcha](https://gitee.com/anji-plus/captcha)  React版 ,界面优化调整 支持滑块和点选切换
 
 
-![alt slide.png](https://raw.githubusercontent.com/yuegongzi/aj-captcha-react/master/src/assert/slide.png)
+![alt slide.png](https://raw.githubusercontent.com/cheepion/slider-captcha-react/master/src/assert/slide.png)
 
-![alt point.png](https://raw.githubusercontent.com/yuegongzi/aj-captcha-react/master/src/assert/point.png)
+![alt point.png](https://raw.githubusercontent.com/cheepion/slider-captcha-react/master/src/assert/point.png)
 
 
 ## API
@@ -16,4 +16,4 @@
 | type        | 显示校验模块的方式,可选 point(点选),slide(弹出)   | String   | auto                      |
 | path        | 后端路径前缀                                      | String   | -                          |
 
-<code src='./demo/index.jsx'/>
+<code src='../../Example/index.jsx'/>

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { Captcha, useCaptcha } from '../../index';
-// import { Captcha, useCaptcha } from 'slider-captcha-react';
+import { Captcha } from '../src/index';
+import { useCaptcha } from './hook';
 
 export default () => {
   const ref = useRef();
